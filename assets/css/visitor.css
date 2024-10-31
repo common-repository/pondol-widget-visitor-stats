@@ -1,0 +1,39 @@
+.table {
+    width: 700px;
+    background-color:#FFFFFF;
+    
+}
+
+.table tr > th {
+    background-color: #f5f5f5;
+}
+
+.table tr>td, .table tr>th {
+    border-top: 1px solid #ddd;
+}
+
+.pondol_visitor_navy{
+    list-style: none;
+    margin: 8px 0 0;
+    padding: 0;
+    font-size: 13px;
+    color: #666;
+}
+
+.pondol_visitor_navy li {
+display: inline-block;
+margin: 0;
+padding: 0;
+white-space: nowrap;
+}
+
+.pondol_visitor_navy a {
+line-height: 2;
+padding: .2em;
+text-decoration: none;
+}
+
+
+.pondol_visitor_navy a.current {
+color: #000;
+}
